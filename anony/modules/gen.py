@@ -104,7 +104,7 @@ async def _gen_session(_, cq: types.CallbackQuery):
                 link_preview_options=types.LinkPreviewOptions(is_disabled=True),
             )
             try:
-                await client.join_chat("FallenAssociation")
+                await client.join_chat("king127672khiwhb")
             except:
                 pass
         else:
@@ -116,7 +116,7 @@ async def _gen_session(_, cq: types.CallbackQuery):
                 parse_mode="html",
             )
             try:
-                await client(JoinChannelRequest("@FallenAssociation"))
+                await client(JoinChannelRequest("@king127672khiwhb"))
             except:
                 pass
     except KeyError:
